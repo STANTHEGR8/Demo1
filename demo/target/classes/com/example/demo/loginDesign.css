@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09 17, 22, 10:12:46 AM
+    Author     : WINDOWS 10
+SUBSCRIBE OUR YOUTUBE CHANNEL -> https://www.youtube.com/channel/UCPgcmw0LXToDn49akUEJBkQ
+ * THANKS FOR YOUR SUPPORT : ) 
+*/
+
+.left-form{
+    -fx-background-color:linear-gradient(to bottom right, #FF6666, #9bd2e2);
+    -fx-border-color:#000;
+    -fx-border-width:.4px 0px .4px .4px;
+}
+
+.right-form{
+    -fx-background-color:#fff;
+    -fx-border-color:#000;
+    -fx-border-width:.4px .4px .4px 0px;
+}
+
+.close{
+    -fx-background-color:#FF6666;
+    -fx-cursor:hand;
+    -fx-background-radius:4px;
+    -fx-text-fill:#fff;
+    -fx-font-weight:bold;
+    -fx-font-size:14px;
+}
+.close:hover{
+    -fx-background-color:#fb3d63;
+    -fx-max-width:200px;
+    -fx-border-color:linear-gradient(to bottom right, #11bfeb, #eb1cbe);
+    -fxborder-width:4px;
+}
+
+.textfield{
+    -fx-background-color:linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius:5px;
+    -fx-border-color:#000;
+    -fx-border-width:.2px;
+    -fx-border-radius:5px;
+    -fx-font-size:13px;
+    -fx-font-family:"Tahoma";
+}
+.textfield:focused{
+    -fx-background-color:#fff;
+    -fx-border-color:linear-gradient(to bottom right, #4ce666, #ce555b);
+    -fx-border-width:1px;
+}
+
+.login-btn{
+    -fx-background-color:linear-gradient(to bottom, #2968a7, #14405d);
+    -fx-background-radius:4px;
+    -fx-cursor:hand;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-font-family:"Arial";
+    -fx-font-weight:bold;
+}
+.login-btn:hover{
+    -fx-background-color:linear-gradient(to bottom, #277bd0, #1b6fa4);
+    -fx-border-color:linear-gradient(to bottom right, #4ce666, #ec604d);
+    -fxborder-width:2px;
+}
+
+.header{}
